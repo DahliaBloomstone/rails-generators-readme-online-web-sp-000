@@ -24,4 +24,17 @@ invoke    coffee
 create      app/assets/javascripts/admin.js.coffee
 invoke    scss
 create      app/assets/stylesheets/admin.css.scss
+So what got added here? Below is a list that is a little more high level:
+
+A controller file that will inherit from ApplicationController
+
+A set of routes to each of the generator arguments: dashboard, stats, financials, and settings
+
+A new directory for all of the view templates along with a view template file for each of the controller actions that we declared in the generator command
+
+A view helper method file
+
+A Coffeescript file for specific JavaScripts for that controller
+
+An scss file for the styles for the controller
 HEREDOC
