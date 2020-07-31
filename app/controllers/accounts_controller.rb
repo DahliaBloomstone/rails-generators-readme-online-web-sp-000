@@ -60,4 +60,19 @@ invoke      scss
 create        app/assets/stylesheets/accounts.css.scss
 invoke  resource_route
  route    resources :accounts
+ A migration file that will create a new database table for the attributes passed to it in the generator
+
+A model file that inherits from ApplicationRecord (as of Rails 5; see Note above)
+
+A controller file that inherits from ApplicationController
+
+A view directory, but no view template files
+
+A view helper file
+
+A Coffeescript file for specific JavaScripts for that controller
+
+A scss file for the styles for the controller
+
+A full resources call in the routes.rb file
 STUFF
