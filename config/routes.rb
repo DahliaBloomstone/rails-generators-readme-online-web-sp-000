@@ -31,7 +31,7 @@ end
 
 
 
-<<-INFO
+<<- INFO
 rake routes | grep account
 accounts      GET    /accounts(.:format)          accounts#index
               POST   /accounts(.:format)          accounts#create
@@ -41,4 +41,4 @@ account       GET    /accounts/:id(.:format)      accounts#show
               PATCH  /accounts/:id(.:format)      accounts#update
               PUT    /accounts/:id(.:format)      accounts#update
               DELETE /accounts/:id(.:format)      accounts#destroy
-INFO 
+INFO
