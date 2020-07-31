@@ -42,7 +42,7 @@ HEREDOC
 
 
 
-<--STUFF
+<<-STUFF
 rails g resource Account name:string payment_status:string --no-test-framework
 
-STUFF 
+STUFF
