@@ -5,7 +5,7 @@ end
 #rails g controller admin dashboard stats financials settings --no-test-framework
 
 
-<<-HEREDOC 
+<<-HEREDOC
 create  app/controllers/admin_controller.rb
  route  get 'admin/settings'
  route  get 'admin/financials'
@@ -24,6 +24,7 @@ invoke    coffee
 create      app/assets/javascripts/admin.js.coffee
 invoke    scss
 create      app/assets/stylesheets/admin.css.scss
+
 So what got added here? Below is a list that is a little more high level:
 
 A controller file that will inherit from ApplicationController
