@@ -44,5 +44,20 @@ HEREDOC
 
 <<-STUFF
 rails g resource Account name:string payment_status:string --no-test-framework
-
+invoke  active_record
+create    db/migrate/20170712011124_create_accounts.rb
+create    app/models/account.rb
+invoke  controller
+create    app/controllers/accounts_controller.rb
+invoke    erb
+create      app/views/accounts
+invoke    helper
+create      app/helpers/accounts_helper.rb
+invoke    assets
+invoke      coffee
+create        app/assets/javascripts/accounts.js.coffee
+invoke      scss
+create        app/assets/stylesheets/accounts.css.scss
+invoke  resource_route
+ route    resources :accounts
 STUFF
