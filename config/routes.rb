@@ -41,4 +41,6 @@ account       GET    /accounts/:id(.:format)      accounts#show
               PATCH  /accounts/:id(.:format)      accounts#update
               PUT    /accounts/:id(.:format)      accounts#update
               DELETE /accounts/:id(.:format)      accounts#destroy
+
+resources automatically creates each of these routes and makes them available to the controller. If you open up the accounts_controller.rb file you may notice something interesting: none of the actions shown in the route list are even there! However, I actually like this because it creates the minimal amount of code possible and then lets me add only the features that the app needs
 INFO
