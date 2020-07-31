@@ -39,3 +39,9 @@ A Coffeescript file for specific JavaScripts for that controller
 
 An scss file for the styles for the controller
 HEREDOC
+
+
+
+<-- HEREDOC
+rails g resource Account name:string payment_status:string --no-test-framework
+HEREDOC 
