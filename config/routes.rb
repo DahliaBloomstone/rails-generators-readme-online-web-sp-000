@@ -41,4 +41,4 @@ account       GET    /accounts/:id(.:format)      accounts#show
               PATCH  /accounts/:id(.:format)      accounts#update
               PUT    /accounts/:id(.:format)      accounts#update
               DELETE /accounts/:id(.:format)      accounts#destroy
-              INFO 
+INFO 
