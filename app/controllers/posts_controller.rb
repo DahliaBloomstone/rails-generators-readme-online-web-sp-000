@@ -1,3 +1,5 @@
+# rails g controller accounts new create edit update destroy index show --no-test-framework
+
 class PostsController < ApplicationController
   def index
   	@posts = Post.all
